@@ -12,7 +12,7 @@ export const HomePage = () => {
       <h1>Home Page</h1>
       <hr />
 
-      <pre>
+      <pre aria-label='pre'>
         Usuario logeado : { user?.name }
       </pre>
     </>
